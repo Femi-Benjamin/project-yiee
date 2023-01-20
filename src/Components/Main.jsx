@@ -141,8 +141,8 @@ const Main = () => {
             <div>
                 <h1 className='font-inter font-bold text-[64px] leading-[78px] text-center text-[#000000de] mb-[40px]'>Testimonials</h1>
                 <p className='font-inter font-normal text-[18px] leading-[29px] text-center text-[#000000] mb-[80px]'>These are the stories of some of our very early customers about their experience of using <br /> Personarise.</p>
-                <div className='md:px-[128px]'>
-                    <div className='flex justify-between'>
+                <div className='md:px-[90px]'>
+                    <div className='flex justify-between gap-[50px]'>
 
                         {/* /// CARD 1 */}
                         <div className='mb-[169px]'>
