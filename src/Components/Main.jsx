@@ -220,8 +220,8 @@ const Main = () => {
 
                         <div className='pr-[146px] pt-[84px]'>
                             <form>
-                                <input
-                                    className='w-[408px] h-[120px] bg-[#FFFFFF] rounded-[8px] mb-[16px] placeholder:p-[24px]'
+                                <textarea
+                                    className='w-[408px] h-[120px] bg-[#FFFFFF] rounded-[8px] mb-[16px] placeholder:p-[10px]  outine-none'
                                     type="text"
                                     id='email'
                                     placeholder='example@gmail.com'
