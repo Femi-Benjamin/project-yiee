@@ -16,19 +16,19 @@ const Main = () => {
             </div>
             {/* /// */}
 
-
-            <div className='flex justify-between ml-[138px] mr-[239.08px] mb-[174px]'>
+            {/* MAP YOUR PASSION */}
+            <div className='flex justify-between ml-[138px] mr-[239. mb-[174px]'>
                 <div>
                     <h1 className='not-italic font-dm sans font-bold text-[58px] leading-[70px] text-black'>Map your passion to a <br /> tech career in minutes
                     </h1>
                     <p className='not-italic font-dm sans font-normal text-[22px] leading-[32px] text-[#15143966]'>Identify a career in tech you are passionate about in minutes. <br /> Simply select the attributes that best define your person - <br /> and watch the system recommend a career that is a close-fit <br /> to you and simplified details about that career.
                     </p>
                 </div>
-                <img src="/Group 55831.png" alt="" />
+                <img src="/Group 55836.png" alt="" />
             </div>
             {/* /// */}
 
-
+            {/* SIGN UP/LOGIN */}
             <div className='flex justify-between ml-[157px] mr-[138px] text-center font-dm sans mb-[206px]'>
                 <div>
                     <h1 className='not-italic font-semibold text-[14px] leading-[26px] uppercase text-[#257CFF]'>sign up/login</h1>
@@ -45,7 +45,7 @@ const Main = () => {
             </div>
             {/* /// */}
 
-
+            {/* SWITCH TO CARRER */}
             <div className='not-italic font-dm sans text-center mb-[48.47px]'>
                 <h1 className='font-bold text-[42px] leading-[52px]'>Switch to a career in tech with ease</h1>
                 <p className='font-normal text-[22px] leading-[32px] text-[#15143966]'>Personarise make it easier for you to switch to a highly demanded tech career with <br /> ease and become a world-class talent in any career of choice.</p>
@@ -61,7 +61,7 @@ const Main = () => {
             </div>
             {/* /// */}
 
-
+            {/* LEARN ABOUT SALES */}
             <div className='flex justify-between ml-[247.95px] mr-[237.5px] mb-[193.62px]'>
                 <div className='flex flex-col'>
                     <div>
@@ -93,9 +93,10 @@ const Main = () => {
             </div>
             {/* /// */}
 
-            <div className='md:px-[180px] mb-[197px]'>
+            {/* WORLD CLASS  */}
+            <div className='md:pr-[180px] mb-[197px]'>
                 <div className='flex justify-between items-center'>
-                    <img src="/Creative.png" alt="" />
+                    <img src="/Group 55837.png" alt="" />
                     <div className='not-italic font-inter text-[#18191F]'>
                         <h1 className='font-bold  text-[40px] leading-[54px] mb-5'>Become a world-class <br /> individual in your field
                         </h1>
@@ -111,6 +112,7 @@ const Main = () => {
             </div>
             {/* /// */}
 
+            {/* HIT YOUR NUMBERS */}
             <div className='md:px-[270px] mb-[205px]'>
                 <div className='flex justify-between items-center'>
                     <div className='not-italic font-inter text-[#18191F]'>
@@ -128,6 +130,7 @@ const Main = () => {
             </div>
             {/* /// */}
 
+            {/* SWITCH CARRER */}
             <div className='flex justify-center mb-[158px]'>
                 <div className='w-[970px] h-[460px] border-2 border-[#EBEAED] rounded-[10px] text-center'>
                     <h1 className='not-italic font-bold text-[42px] leading-[52px] text-[#000000de] pt-[158px] pb-[32px]'>Switch to a career in tech with ease</h1>
@@ -136,13 +139,14 @@ const Main = () => {
                     <button className='w-[186px] h-[50px] bg-[#257CFF] rounded-[5px] cursor-pointer font-dm sans font-medium text-[18px] leading-[26px] text-white'>Get Started</button>
                 </div>
             </div>
+            {/* /// */}
 
             {/* /// TESTIMONIALS*/}
             <div>
                 <h1 className='font-inter font-bold text-[64px] leading-[78px] text-center text-[#000000de] mb-[40px]'>Testimonials</h1>
                 <p className='font-inter font-normal text-[18px] leading-[29px] text-center text-[#000000] mb-[80px]'>These are the stories of some of our very early customers about their experience of using <br /> Personarise.</p>
                 <div className='md:px-[90px]'>
-                    <div className='flex justify-between gap-[50px]'>
+                    <div className='flex justify-between gap-[50px]'>   {/* CORRECTION */}
 
                         {/* /// CARD 1 */}
                         <div className='mb-[169px]'>
@@ -203,7 +207,9 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+            {/* /// */}
 
+            {/* INFO */}
             <div className='flex justify-center md:px-[128px] mb-[117px]'>
                 <div className='w-[1256px] h-[400px] bg-[#F4F1F1]'>
                     <div className='flex justify-between'>
