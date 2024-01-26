@@ -48,7 +48,6 @@ const Main = () => {
                     <p className='not-italic font-normal text-[16px] md:text-[14px] leading-[26px] text-[#15143966]'>Be among the top 1% in your career and <br /> become a rock star in your tech career by <br /> identifying your skills gap and bridging them,</p>
                 </div>
             </div>
-
             {/* /// */}
 
             {/* SWITCH TO CARRER */}
@@ -73,7 +72,6 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-
             {/* /// */}
 
             {/* LEARN ABOUT SALES */}
@@ -155,7 +153,6 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-
             {/* /// */}
 
             {/* SWITCH CARRER */}
@@ -171,14 +168,15 @@ const Main = () => {
 
             {/* /// TESTIMONIALS*/}
             <div>
-                <h1 className='font-inter font-bold text-[64px] leading-[78px] text-center text-[#000000de] mb-[40px]'>Testimonials</h1>
-                <p className='font-inter font-normal text-[18px] leading-[29px] text-center text-[#000000] mb-[80px]'>These are the stories of some of our very early customers about their experience of using <br /> Personarise.</p>
-                <div className='md:px-[90px]'>
-                    <div className='flex justify-between gap-[50px]'>   {/* CORRECTION */}
+                <h1 className='font-inter font-bold text-4xl lg:text-6xl leading-6 lg:leading-8 text-center text-[#000000de] mb-8 lg:mb-10'>Testimonials</h1>
+                <p className='font-inter font-normal text-base lg:text-lg leading-6 lg:leading-7 text-center text-[#000000] mb-16 lg:mb-20'>These are the stories of some of our very early customers about their experience of using <br /> Personarise.</p>
 
+
+                <div className=''>
+                    <div className='md:flex flex-row justify-around gap-[50px]'>   {/* CORRECTION */}
                         {/* /// CARD 1 */}
-                        <div className='mb-[169px]'>
-                            <div className='w-[608px] h-[296px] bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
+                        <div className='md:mb-[160px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
                                 <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
                                 <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
@@ -192,7 +190,7 @@ const Main = () => {
 
 
                             {/* /// CARD 2 */}
-                            <div className='w-[608px] h-[296px] bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
                                 <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
                                 <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
@@ -207,7 +205,7 @@ const Main = () => {
 
                         <div className='mb-[169px]'>
                             {/* /// CARD 3 */}
-                            <div className='w-[608px] h-[296px] bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
                                 <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
                                 <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
@@ -220,7 +218,7 @@ const Main = () => {
                             </div>
 
                             {/* /// CARD 4 */}
-                            <div className='w-[608px] h-[296px] bg-[#F4F1F1] rounded-[16px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px]'>
                                 <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
                                 <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
