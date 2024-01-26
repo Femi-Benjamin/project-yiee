@@ -47,10 +47,10 @@ const HomeBar = () => {
 
   return (
     <nav className='w-full h-[100px] bg-neutral-10 shadow-md md:shadow'>
-      <div className='px-10 lg:px-[100px]'>
+      <div className='px-8 lg:px-[100px]'>
         <div className='h-[100px] flex justify-between items-center'>
 
-          <div className='flex gap-10 items-center cursor-pointer'>
+          <div className='flex gap-12 items-center cursor-pointer'>
             <img src="/Personarise logo 1.png" alt="" />
             <h1 className='not-italic font-bold text-[30px] md:text-[36px] leading-[28px] md:leading-[37px] text-black'>
               Personarise
@@ -58,7 +58,7 @@ const HomeBar = () => {
           </div>
 
           {/* Hamburger Menu Button */}
-          <div className='flex md:hidden items-center pl-10'>
+          <div className='flex md:hidden items-center pl-20'>
             <button onClick={toggleMenu} className='focus:outline-none'>
               <svg
                 className='w-6 h-6'
