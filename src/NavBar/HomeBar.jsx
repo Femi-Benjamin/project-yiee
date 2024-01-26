@@ -47,7 +47,7 @@ const HomeBar = () => {
 
   return (
     <nav className='w-full h-[100px] bg-neutral-10 shadow-md md:shadow'>
-      <div className='px-7 lg:px-[100px]'>
+      <div className='px-10 lg:px-[100px]'>
         <div className='h-[100px] flex justify-between items-center'>
 
           <div className='flex gap-10 items-center cursor-pointer'>
@@ -58,7 +58,7 @@ const HomeBar = () => {
           </div>
 
           {/* Hamburger Menu Button */}
-          <div className='flex md:hidden items-center pl-7'>
+          <div className='flex md:hidden items-center pl-10'>
             <button onClick={toggleMenu} className='focus:outline-none'>
               <svg
                 className='w-6 h-6'
