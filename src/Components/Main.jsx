@@ -19,7 +19,7 @@ const Main = () => {
             {/* MAP YOUR PASSION */}
             <div className='flex justify-between flex-col md:flex-row  md:mx-auto mb-6 md:mb-16 md:text-left text-center items-center'>
                 <div className='md:mr-8 lg:ml-[138px] px-3'>
-                    <h1 className='not-italic font-dm sans font-bold text-4xl md:text-5xl leading-8 md:leading-[70px] text-black md:pb-6 pb-7'>
+                    <h1 className='not-italic font-dm sans font-bold text-4xl md:text-5xl leading-10 md:leading-[70px] text-black md:pb-6 pb-7'>
                         Map your passion to a <br /> tech career in minutes
                     </h1>
                     <p className='not-italic font-dm sans font-normal text-lg md:text-xl leading-6 md:leading-8 text-[#15143966]'>

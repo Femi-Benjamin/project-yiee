@@ -109,7 +109,7 @@ const HomeBar = () => {
       {/* Hamburger Menu */}
       {menuOpen && (
         <div className='md:hidden bg-gray-500 translate-x-0 translate-y-0'>
-          <ul className='flex flex-col items-center gap-4 py-4'>
+          <ul className='flex flex-col items-center gap-4 py-4 text-white'>
             <li className='cursor-pointer'>Who we are</li>
             <li className='cursor-pointer'>What we do</li>
             <li className='cursor-pointer'>Contact</li>
