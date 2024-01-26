@@ -46,13 +46,13 @@ const HomeBar = () => {
   };
 
   return (
-    <nav className='w-screen h-[100px] bg-neutral-10 shadow-md md:shadow'>
-      <div className='px-4 lg:px-[100px]'>
+    <nav className='w-full h-[100px] bg-neutral-10 shadow-md md:shadow'>
+      <div className='px-5 lg:px-[100px]'>
         <div className='h-[100px] flex justify-between items-center'>
 
-          <div className='flex gap-4 items-center cursor-pointer'>
+          <div className='flex gap-12 items-center cursor-pointer'>
             <img src="/Personarise logo 1.png" alt="" />
-            <h1 className='not-italic font-bold text-[24px] md:text-[32px] leading-[28px] md:leading-[37px] text-black'>
+            <h1 className='not-italic font-bold text-[30px] md:text-[36px] leading-[28px] md:leading-[37px] text-black'>
               Personarise
             </h1>
           </div>
