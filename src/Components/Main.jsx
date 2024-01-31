@@ -1,4 +1,6 @@
 import React from 'react'
+import Typewriter from "typewriter-effect";
+
 
 const Main = () => {
     return (
@@ -23,10 +25,13 @@ const Main = () => {
                         Map your passion to a <br /> tech career in minutes
                     </h1>
                     <p className='not-italic font-dm sans font-normal text-lg md:text-xl leading-6 md:leading-8 text-[#15143966]'>
-                        Identify a career in tech you are passionate about in minutes. <br />
-                        Simply select the attributes that best define your person - <br />
-                        and watch the system recommend a career that is a close-fit <br />
-                        to you and simplified details about that career.
+                    <Typewriter
+						options={{
+							strings: ['Identify a career in tech you are passionate about in minutes. <br/> Simply select the attributes that best define your person - <br/> and watch the system recommend a career that is a close-fit <br/> to you and simplified details about that career.'],
+							autoStart: true,
+							loop: true,
+						}}
+					/>
                     </p>
                 </div>
                 <img className='mt-6 mb-10 md:mt-0' src="/Group 55836.png" alt="" />
@@ -75,7 +80,7 @@ const Main = () => {
             {/* /// */}
 
             {/* LEARN ABOUT SALES */}
-            <div className='flex flex-col md:flex-row justify-between mx-4 md:ml-[247.95px] md:mr-[237.5px] md:mb-[193.62px] md:text-left text-center'>
+            <div className='flex flex-col md:flex-row justify-between mx-4 md:ml-[247.95px] md:mr-[237.5px] md:mb-[193.62px] md:text-left text-center items-center'>
                 <div className='flex flex-col mb-8 md:mb-0 md:mr-4'>
                     <div>
                         <h1 className='not-italic font-semibold font-dm sans text-[18px] md:text-[24px] leading-[26px] uppercase text-[#257CFF] mb-[13.35px]'>learn about sales</h1>
@@ -94,7 +99,7 @@ const Main = () => {
 
                 <div className='flex flex-col'>
                     <div>
-                        <h1 className='not-italic font-semibold font-dm sans text-[18px] md:text-[24px] leading-[26px] uppercase text-[#257CFF] mt-[53.83px] mb-[13.35px]'>learn from experts</h1>
+                        <h1 className='not-italic font-semibold font-dm sans text-[18px] md:text-[24px] leading-[26px] uppercase text-[#257CFF] mt-[53.83p mb-[13.35px]'>learn from experts</h1>
                         <p className='not-italic font-medium text-[16px] md:text-[18px] leading-[26px] text-[#15143966] mb-[53.83px] '>Learn sales skills from sales <br /> experts and understand how <br /> they sell more with less.</p>
                     </div>
 
@@ -107,13 +112,21 @@ const Main = () => {
             {/* /// */}
 
             {/* WORLD CLASS  */}
-            <div className='md:pr-[180px] mb-[197px]'>
+            <div className='md:pr-[180px] mb-[197px] '>
                 <div className='flex flex-col md:flex-row justify-between items-center'>
                     <img src="/Group 55837.png" alt="" className='mb-4 md:mb-0 md:mr-4' />
-                    <div className='not-italic font-inter text-[#18191F] text-center md:text-left'>
+                    <div className='not-italic font-inter text-[#18191F] text-center md:text-left md:px-0 px-4'>
                         <h1 className='font-bold text-[28px] md:text-[40px] leading-[36px] md:leading-[54px] mb-5 md:mb-5 md:mt-0 mt-5'>Become a world-class <br /> individual in your field
                         </h1>
-                        <p className='font-normal text-[16px] md:text-[18px] leading-[24px] md:leading-[32px] mb-8 md:mb-14'>Identify the skills that world-class individuals possess in <br /> your field and what they know. Learn the skills with any <br /> eLearning provider you prefer.
+                        <p className='font-normal text-[16px] md:text-[18px] leading-[24px] md:leading-[32px] mb-8 md:mb-12'>
+                        <Typewriter
+						options={{
+							strings: ['Identify the skills that world-class individuals possess<br/> in  your field and what they know. Learn the skills with<br /> any eLearning provider you prefer.'],
+							autoStart: true,
+							loop: true,
+						}}
+					/>
+                       
                         </p>
 
                         <div className='flex items-center gap-[10px] justify-center md:justify-start'>
@@ -156,7 +169,7 @@ const Main = () => {
             {/* /// */}
 
             {/* SWITCH CARRER */}
-            <div className='flex justify-center md:mb-[158px] mb-16 mx-3'>
+            <div className='flex justify-center md:mb-[158px] mb-16 mx-4'>
                 <div className='h-[460px] border-2 border-[#EBEAED] rounded-md text-center p-16'>
                     <h1 className='not-italic font-bold text-3xl sm:text-4xl md:text-5xl leading-10 sm:leading-12 md:leading-14 text-[#000000de] md:pt-10 pb-4 sm:pb-8'>Switch to a career in tech with ease</h1>
                     <p className='not-italic font-medium text-base sm:text-lg md:text-xl leading-6 sm:leading-7 md:leading-8 text-[#15143966] pb-12 sm:pb-16'>Start your tech journey or take your career to the next level with Personarise today.</p>
@@ -172,27 +185,13 @@ const Main = () => {
                 <p className='font-inter font-normal text-base lg:text-lg leading-6 lg:leading-7 text-center text-[#000000] mb-16 lg:mb-20'>These are the stories of some of our very early customers about their experience of using <br /> Personarise.</p>
 
 
-                <div className=''>
-                    <div className='md:flex flex-row justify-around gap-[50px]'>   {/* CORRECTION */}
-                        {/* /// CARD 1 */}
-                        <div className='md:mb-[160px]'>
-                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
-                                <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
-                                <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
-                                <div className='flex items-center ml-[50px] gap-[16px]'>
-                                    <img src="/Ellipse 41.png" alt="" />
-                                    <div className='not-italic font-inter text-[#00000099]'>
-                                        <h1 className='font-bold text-[16px] leading-[26px]'>Joseph Umoh</h1>
-                                        <p className='font-medium text-[12px] leading-[15px] '>CEO Tera Culture, Lagos.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            {/* /// CARD 2 */}
-                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
-                                <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
-                                <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
+                <div className='md:mx-0 mx-4'>
+                    {/* /// CARD 1 */}
+                    <div className='md:flex justify-evenly'>
+                        <div className='md:mb-[160px mb-[20px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px] py-5'>
+                                <img className='pl-[33.32px] pb-[22.67px]' src="/bxs_quote-left.png" alt="" />
+                                <p className='font-inter md:text-left text-center font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] px-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
                                     <img src="/Ellipse 41.png" alt="" />
                                     <div className='not-italic font-inter text-[#00000099]'>
@@ -203,11 +202,11 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className='mb-[169px]'>
-                            {/* /// CARD 3 */}
-                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px]'>
-                                <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
-                                <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
+                        {/* /// CARD 2 */}
+                        <div className='md:mb-[160px mb-[20px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px] py-5'>
+                                <img className='pl-[33.32px] pb-[22.67px]' src="/bxs_quote-left.png" alt="" />
+                                <p className='font-inter md:text-left text-center font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] px-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
                                     <img src="/Ellipse 41.png" alt="" />
                                     <div className='not-italic font-inter text-[#00000099]'>
@@ -216,11 +215,31 @@ const Main = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
-                            {/* /// CARD 4 */}
-                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px]'>
-                                <img className='pl-[33.32px] pb-[22.67px] pt-[36.67px]' src="/bxs_quote-left.png" alt="" />
-                                <p className='font-inter font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] ml-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
+
+                    {/* /// CARD 3 */}
+                    <div className='md:flex justify-evenly'>
+                        <div className='mb-[20px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] mb-[40px] py-5'>
+                                <img className='pl-[33.32px] pb-[22.67px]' src="/bxs_quote-left.png" alt="" />
+                                <p className='font-inter md:text-left text-center font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] px-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
+                                <div className='flex items-center ml-[50px] gap-[16px]'>
+                                    <img src="/Ellipse 41.png" alt="" />
+                                    <div className='not-italic font-inter text-[#00000099]'>
+                                        <h1 className='font-bold text-[16px] leading-[26px]'>Joseph Umoh</h1>
+                                        <p className='font-medium text-[12px] leading-[15px] '>CEO Tera Culture, Lagos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* /// CARD 4 */}
+                        <div className='mb-[80px]'>
+                            <div className='w-full h-[296px bg-[#F4F1F1] rounded-[16px] py-5'>
+                                <img className='pl-[33.32px] pb-[22.67px]' src="/bxs_quote-left.png" alt="" />
+                                <p className='font-inter md:text-left text-center font-medium text-[16px] leading-[26px] text-[#00000099] mb-[27px] px-[50px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Facilisi sapien ipsum, mi urna, vehicula elit congue etiam <br /> purus. Amet eu risus, sed auctor et. Orci sed faucibus <br /> cursus dictum tincidunt amet, leo. </p>
                                 <div className='flex items-center ml-[50px] gap-[16px]'>
                                     <img src="/Ellipse 41.png" alt="" />
                                     <div className='not-italic font-inter text-[#00000099]'>
@@ -236,25 +255,24 @@ const Main = () => {
             {/* /// */}
 
             {/* INFO */}
-            <div className='flex justify-center md:px-[128px] mb-[117px]'>
-                <div className='w-[1256px] h-[400px] bg-[#F4F1F1]'>
-                    <div className='flex justify-between'>
-                        <div className='pl-[70px] pt-[70px] font-inter'>
-                            <h1 className='font-bold text-[48px] leading-[78px] text-black'>Curious to try? <br /> Get started now!</h1>
-                            <p className='font-normal text-[18px] leading-[29px] text-black'>Join our early users and discover how Personarise is <br /> helping you maximize career opportunities. </p>
+            <div className='flex flex-col justify-center px-4 md:px-0 mb-8 md:mb-16'>
+                <div className='w-full md:w-[70%] mx-auto bg-[#F4F1F1] md:p-20 p-10 rounded-2xl'>
+                    <div className='flex flex-col md:flex-row justify-between items-center'>
+                        <div className='mb-8 md:mb-0 md:text-left text-center'>
+                            <h1 className='font-bold text-3xl md:text-4xl lg:text-5xl md:leading-[78px] text-black mb-4 md:mb-6 '>Curious to try? <br /> Get started now!</h1>
+                            <p className='font-normal text-base md:text-lg lg:text-xl  text-black'>Join our early users and discover how Personarise <br /> is  helping you maximize career opportunities.</p>
                         </div>
 
-                        <div className='pr-[146px] pt-[84px]'>
-                            <form>
+                        <div className=' md:flex-row items-center'>
+                            <form className='mb-4 md:mb-0'>
                                 <textarea
-                                    className='w-[408px] h-[120px] bg-[#FFFFFF] rounded-[8px] mb-[16px] placeholder:p-[10px]  outine-none'
+                                    className='md:w-[408px] w-60 h-[120px] md:h-40 bg-white rounded-md md:mb-5 p-2 focus:outline-none'
                                     type="text"
-                                    id='email'
-                                    placeholder='example@gmail.com'
+                                    placeholder='Curious to try? Type now!'
                                 />
                             </form>
 
-                            <button className='w-[408px] h-[58px] bg-black text-white rounded-[8px] text-[18px] leading-[26px] text-[#ffffffde]'>Get Started</button>
+                            <button className='md:w-[408px] w-full h-[58px] md:h-16 bg-black text-white rounded-md text-base md:text-lg lg:text-xl'>Get Started</button>
                         </div>
                     </div>
                 </div>

@@ -1,44 +1,53 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
-    return (
-        <div className='h-[294px] bg-[#257CFF]'>
-            <div className='pl-[128px] pr-[223.25px]'>
-                <div className='flex justify-between pb-[52px] border-b pt-[42px]'>
-                    <div className='font-inter font-normal text-[16px] leading-[26px] text-[#ffffff99]'>
-                        <h1 className='pb-[16px]'>Who we are</h1>
-                        <h1 className='pb-[16px]'>What we do</h1>
-                        <h1>Contact</h1>
-                    </div>
-                    <div className='font-inter font-normal text-[16px] leading-[26px] text-[#ffffff99]'>
-                        <h1  className='pb-[16px]'>Lorem ipsum</h1>
-                        <h1  className='pb-[16px]'>Lorem ipsum</h1>
-                        <h1>Lorem ipsum</h1>
-                    </div>
-                    <div className='font-inter font-normal text-[16px] leading-[26px] text-[#ffffff99]'>
-                        <h1  className='pb-[16px]'>Privacy Policy</h1>
-                        <h1  className='pb-[16px]'>Terms & Conditions</h1>
-                        <h1>License</h1>
-                    </div>
-                    <div className='font-inter font-normal text-[16px] leading-[26px] text-[#ffffff99]'>
-                        <div className='flex gap-[14.98px] items-center pb-[16px]'>
-                            <img src="/bx_bxl-linkedin.png" alt="" />
-                            <h1>LinkedIn</h1>
-                        </div>
-                        <div className='flex gap-[14.98px] items-center pb-[16px]'>
-                            <img src="/ant-design_twitter-outlined.png" alt="" />
-                            <h1>Twitter</h1>
-                        </div>
-                        <div className='flex gap-[14.98px] items-center'>
-                            <img src="/ant-design_instagram-filled.png" alt="" />
-                            <h1>Instagram</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <h1 className='text-center m-[40px] font-inter text-[16px] leading-[26px] text-[#ffffff99] mb-[40px]'>© Personise 2022. All rights reserved.</h1>
-        </div>
-    )
-}
+  return (
+    <div className='bg-[#257CFF] h-auto'>
 
-export default Footer
+      <div className='lg:px-[250px] px- md:py-[50px] py-5'>
+        <div className='cursor-none'>
+          <div className='grid md:grid-cols-4 grid-cols-2 place-items-center border-b font-inter font-normal md:text-xl text-base leading-[26px] text-[#ffffff99] md:pb-[52px] md:text-left text-center'>
+            <div className='mb-6 md:mb-0'>
+              <h1 className='md:pb-[16px] pb-2'>Who we are</h1>
+              <h1 className='md:pb-[16px] pb-2'>What we do</h1>
+              <h1 className=''>Contact</h1>
+            </div>
+
+            <div className='mb-6 md:mb-0'>
+              <h1 className='md:pb-[16px] pb-2'>Lorem ipsum</h1>
+              <h1 className='md:pb-[16px] pb-2'>Lorem ipsum</h1>
+              <h1 className=''>Lorem ipsum</h1>
+            </div>
+
+            <div className='mb-6 md:mb-0'>
+              <h1 className='md:pb-[16px] pb-2'>Privacy Policy</h1>
+              <h1 className='md:pb-[16px] pb-2'>Terms & Conditions</h1>
+              <h1 className=''>License</h1>
+            </div>
+
+            <div className=''>
+              <a href=""><div className='flex md:flex-row gap-2 items-center md:pb-[16px] pb-2'>
+                <img src='/bx_bxl-linkedin.png' alt='' />
+                <h1>LinkedIn</h1>
+              </div></a>
+
+              <a href=""><div className='flex md:flex-row gap-2 items-center md:pb-[16px] pb-2'>
+                <img src='/ant-design_twitter-outlined.png' alt='' />
+                <h1>Twitter</h1>
+              </div></a>
+
+              <a href=""><div className='flex md:flex-row gap-2 items-center'>
+                <img src='/ant-design_instagram-filled.png' alt='' />
+                <h1>Instagram</h1>
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 className='text-center  pb-5 md:pb-[50px] font-inter md:text-xl text-base leading-[26px] text-[#ffffff99]'>© Personise 2022. All rights reserved.</h1>
+    </div>
+  );
+};
+
+export default Footer;

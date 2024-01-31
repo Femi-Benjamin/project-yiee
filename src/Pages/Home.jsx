@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Typewriter from "typewriter-effect";
 import './Home.css';
 
 const Home = () => {
@@ -14,12 +15,17 @@ const Home = () => {
 	return (
 		<div className='h-[760px] bg bg-center bg-no-repeat p-4 md:p-8'>
 			<div className='text-center pt-12 md:pt-24'>
-				<h1>
-
+				<h1 className='not-italic font-bold text-4xl md:text-6xl leading-10 md:leading-16 pb-4 md:pb-10 text-black text-center'>
+					<Typewriter
+						options={{
+							strings: ['Choose a career in tech in minutes.'],
+							autoStart: true,
+							loop: true,
+							delay: 200,
+						}}
+					/>
 				</h1>
-				<marquee className='not-italic font-bold text-4xl md:text-6xl leading-10 md:leading-16 pb-4 md:pb-10 text-black text-center' width="60%" direction="left" height="80px">
-					Choose a career in tech in minutes.
-				</marquee>
+
 				<p className='not-italic font-inter font-normal text-lg md:text-xl leading-7 md:leading-10 text-black mb-4 md:mb-6'>
 					Personarise is your tech talent development platform for eliminating time-consuming <br />{' '}
 					activities while making decisions on a tech career you will succeed in — and so <br />  much more.
